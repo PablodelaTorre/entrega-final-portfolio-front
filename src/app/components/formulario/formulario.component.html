@@ -1,0 +1,22 @@
+<form [formGroup]="form" (ngSubmit)="onEnviar($event)">
+    <input type="text" id="nombre" formControlName="nombre" placeholder="Nombre">
+    <!-- <div *ngIf="Nombre?.errors && Nombre?.touched">
+        <p *ngIf="Nombre?.hasError('required')" class="text-danger">Debe ingresar un nombre</p>
+    </div> -->
+    <input type="text" id="asunto" formControlName="asunto" placeholder="Asunto">
+    <!-- <div *ngIf="Asunto?.errors && Asunto?.touched">
+        <p *ngIf="Asunto?.hasError('required')" class="text-danger">Debe ingresar un asunto</p>
+    </div> -->
+    <input type="email" id="email" formControlName="email" placeholder="Email">
+    <!-- <div *ngIf="Email?.errors && Email?.touched">
+        <p *ngIf="Email?.hasError('required')" class="text-danger">Debe ingresar un email</p>
+    </div> -->
+    <!-- <div *ngIf="Email?.errors && Email?.touched">
+        <p *ngIf="Email?.hasError('email')" class="text-danger">Debe ingresar un email válido</p>
+    </div> -->
+    <input type="number" id="telefono" formControlName="telefono" placeholder="Número de teléfono">
+    <!-- <div *ngIf="Telefono?.errors && Telefono?.touched">
+        <p *ngIf="Asunto?.hasError('required')" class="text-danger">Debe ingresar un telefono</p>
+    </div> -->
+    <button class="center" type="submit">Enviar</button>
+</form>

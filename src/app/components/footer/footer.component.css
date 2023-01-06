@@ -1,0 +1,88 @@
+.contenedor-form {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    border-radius: 2rem;
+    background-color:  rgba(70, 155, 158, 0.85);
+    transition: 0.3s;
+    display: grid;
+    place-content: center;
+}
+
+.contenedor-form:hover {
+    transform: scale(1.01);
+}
+
+.center {
+    display: grid;
+    place-content: center;
+}
+
+.textoFormulario {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    display: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+input {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    width: 20vw;
+    transition: 0.3s;
+    border: none;
+    border-radius: 2px;
+}
+
+input:hover {
+    transform: scale(1.05);
+}
+
+.redes{
+    max-width: 5rem;
+    max-height: 5rem;
+    transition: 0.5s;
+    border-radius: 4rem;
+}
+
+.redes:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 1000px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+
+    }
+}
+
+@media (max-width: 800px) {
+    h3 {
+        display: flex;
+        place-content: center;
+    }
+    .textoFormulario {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+    input {
+        width: 30vw;
+    }
+}
+
+@media (max-width: 500px) {
+    input {
+        width: 40vw;
+    }
+}

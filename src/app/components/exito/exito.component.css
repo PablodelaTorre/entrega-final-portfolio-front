@@ -1,0 +1,30 @@
+div {
+    background-color:  rgba(70, 155, 158, 0.85);
+    margin-top: 5vw;
+}
+
+p {
+    font-size: 3rem;
+    color: white;
+    display: grid;
+    place-content: center;
+}
+
+.botonRedi {
+    border: none;
+    display: grid;
+    place-content: center;
+    margin-top: 5rem;
+    width: 100vw;
+    height: 8vh;
+    border-radius: 1rem;
+    transition: 0.3s;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(13, 46, 212);
+}
+
+.botonRedi:hover {
+    transform: scale(0.95);
+    color: red;
+}

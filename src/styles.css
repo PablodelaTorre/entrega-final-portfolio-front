@@ -1,0 +1,109 @@
+body {
+    /* background-color: #242424;  */
+    background-image: url(./assets/images/background.jpg);
+    background-size: contain;
+}
+
+.titulo{
+    color: white;
+    border-radius: 5rem;
+}
+
+.subtitulo{
+    color: white;
+    border-radius: 5rem;
+}
+
+.background-tit{
+    background-color: rgba(70, 155, 158, 0.85);
+    transition: 0.3s;
+}
+
+.background-tit:hover {
+    transform: scale(1.1);
+}
+
+.background-white {
+    background-color: white;
+}
+
+.background-primario {
+    background-color: rgba(70, 155, 158, 0.85);
+}
+
+.lista-nav li{
+    height: 100%;
+    width: 100%;
+}
+
+.lista-nav li:hover{
+    background-color: cyan;
+}
+
+.lista-nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.lista-nav li a:hover{
+    color: black;
+}
+
+.presentacion{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.curriculum {
+    max-height: 534px;
+    max-width: 507px;
+}
+
+.curriculum img {
+    max-height: 534px;
+    max-width: 507px;
+}
+
+.curriculum a{
+    transition: 0.5s;
+}
+
+.curriculum a:hover{
+    transform: scale(1.15);
+}
+
+.boton-curriculum {
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    background-color: rgba(255,255,255,0.7);
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    height: 35px;
+}
+
+.altura-proyectos {
+    height: 5vh;
+}
+
+.border-radius {
+    border-radius: 5rem;
+}
+
+.contacto {
+    height: 25rem;
+    background-color: rgba(250, 250, 250, 0.8)
+}
+
+.contacto p{
+    color: black;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+

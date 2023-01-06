@@ -1,0 +1,64 @@
+h1 {
+    color: white;
+    font-size: 5rem;
+    background-color:  rgba(70, 155, 158, 0.85);
+    text-align: center;
+}
+
+form {
+    display: grid;
+    place-content: center;
+    margin-top: 2rem;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    border-radius: 0.4rem;
+    color: white;
+    background-color:  rgba(70, 155, 158, 0.85);
+    font-size: 2rem;
+    font-weight: 500;
+    width: 40vw;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+input {
+    border: none;
+    border-radius: 0.4rem;
+    width: 40vw;
+    height: 4vw;
+    margin-bottom: 2rem;
+}
+
+button {
+    margin-top: 1.5rem;
+    width: 25vw;
+    height: 4vw;
+    background-color:  rgba(70, 155, 158, 0.95);
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 0.4rem;
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: scale(0.95);
+}
+
+.danger {
+    border: none;
+    border-radius: 2rem;
+    background-color: white;
+    color: red;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
